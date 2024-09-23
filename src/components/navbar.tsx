@@ -46,18 +46,18 @@ export const Navbar = () => {
   };
 
 
-  const generateRandomStyle = () => {
-    const duration = Math.random() * 2 + 2; // Random duration between 2s and 4s
-    const delay = Math.random() * 0.5; // Random delay between 0s and 0.5s
-    const xMovement = Math.random() * 20 - 10; // Random horizontal movement between -10px and 10px
-    const scale = Math.random() * 0.5 + 0.75; // Random scale between 0.75 and 1.25
+  // const generateRandomStyle = () => {
+  //   const duration = Math.random() * 2 + 2; // Random duration between 2s and 4s
+  //   const delay = Math.random() * 0.5; // Random delay between 0s and 0.5s
+  //   const xMovement = Math.random() * 20 - 10; // Random horizontal movement between -10px and 10px
+  //   const scale = Math.random() * 0.5 + 0.75; // Random scale between 0.75 and 1.25
 
-    return {
-      animationDuration: `${duration}s`,
-      animationDelay: `${delay}s`,
-      transform: `translateX(${xMovement}px) scale(${scale})`,
-    };
-  };
+  //   return {
+  //     animationDuration: `${duration}s`,
+  //     animationDelay: `${delay}s`,
+  //     transform: `translateX(${xMovement}px) scale(${scale})`,
+  //   };
+  // };
 
 
   const searchInput = (
@@ -68,7 +68,7 @@ export const Navbar = () => {
         input: "text-sm",
       }}
       endContent={
-        <Kbd className="hidden lg:inline-block" keys={["command"]}>
+        <Kbd className="hidden lg:inline-block" keys={["ctrl"]}>
           K
         </Kbd>
       }

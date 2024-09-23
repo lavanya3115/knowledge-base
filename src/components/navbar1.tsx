@@ -30,7 +30,7 @@ import "./heart1.css";
 
 export const Navbar = () => {
   // const [hearts, setHearts] = useState([]);
-  const likeCount = 100;
+  const likeCount = 69;
   const [hearts, setHearts] = useState<number[]>([]);
 
   const handleHeartButtonClick = () => {
