@@ -7,7 +7,9 @@ import BlogPage from "@/pages/blog";
 import AboutPage from "@/pages/about";
 import Admin from "@/pages/admin";
 import RegisterPage from "@/pages/register";
-// import { AddProductDialog } from "./pages/fileupload";
+import UserPage from "@/pages/pricing";
+// import { FloatingDockDemo } from "./pages/floatdock";
+// import { NavbarDemo } from "./pages/navbar-float";
 
 function App() {
   return (
@@ -19,7 +21,9 @@ function App() {
       <Route element={<AboutPage />} path="/about" />
       <Route element={<Admin />} path="/admin" />  {/* Add Admin route */}
       <Route element={<RegisterPage />} path="/register" />  {/* Add Register route */}
-      {/* <Route element={<AddProductDialog />} path="/add" />   */}
+      {/* <Route element={<FloatingDockDemo />} path="/floatdock" /> */}
+      <Route element={<UserPage />} path="/user" />
+      {/* <Route element={<NavbarDemo />} path="/navbar" /> */}
     </Routes>
   );
 }
