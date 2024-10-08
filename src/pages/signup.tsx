@@ -7,10 +7,8 @@ import { Input } from "@/components/ui/input";
 import { cn } from "@/lib/utils";
 import {
   IconBrandGithub,
-  IconBrandGoogle,
-  IconBrandOnlyfans,
+  IconBrandGoogle
 } from "@tabler/icons-react";
-import { redirect } from "react-router-dom";
 
 export default function SignUp() {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
