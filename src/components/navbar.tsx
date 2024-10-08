@@ -17,13 +17,12 @@ import clsx from "clsx";
 import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
 import {
-  TwitterIcon,
   GithubIcon,
-  DiscordIcon,
+  // DiscordIcon,
   HeartFilledIcon,
   SearchIcon,
 } from "@/components/icons";
-import { Logo } from "@/components/icons";
+// import { Logo } from "@/components/icons";
 import { useState } from "react";
 import "./heart.css";
 
