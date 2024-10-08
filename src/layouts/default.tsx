@@ -20,8 +20,8 @@ export default function DefaultLayout({
           // href="https://nextui-docs-v2.vercel.app?utm_source=next-pages-template"
           title="A²"
         >
-          <span className="text-default-600">Powered by</span>
-          <p className="text-primary">Aarif Shaik</p>
+          <span className="text-default-600">@</span>
+          <p className="text-primary">Lavanya Pyla</p>
         </Link>
       </footer>
     </div>

@@ -9,21 +9,21 @@ export const siteConfig = {
       href: "/",
     },
     {
-      label: "Docs",
-      href: "/docs",
+      label: "Sign Up",
+      href: "/signup",
     },
+    // {
+    //   label: "Pricing",
+    //   href: "/user",
+    // },
     {
-      label: "Pricing",
-      href: "/user",
+      label: "Post",
+      href: "/post",
     },
-    {
-      label: "Blog",
-      href: "/blog",
-    },
-    {
-      label: "About",
-      href: "/about",
-    },
+    //{
+      // label: "About",
+      // href: "/about",
+    //},
     {
       label: "Admin",
       href: "/admin",
@@ -68,10 +68,8 @@ export const siteConfig = {
     },
   ],
   links: {
-    github: "https://github.com/nextui-org/nextui",
-    twitter: "https://twitter.com/getnextui",
-    docs: "https://nextui-docs-v2.vercel.app",
-    discord: "https://discord.gg/9b6yyZKmH4",
-    sponsor: "https://patreon.com/jrgarciadev",
+    github: "https://github.com/lavanya3115",
+    twitter: "https://x.com/home?lang=en-in",
+    docs:"https://kali.org",
   },
 };

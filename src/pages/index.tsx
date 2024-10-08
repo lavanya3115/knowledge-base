@@ -13,22 +13,22 @@ export default function IndexPage() {
     <DefaultLayout>
       <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
         <div className="inline-block max-w-lg text-center justify-center">
-          <h1 className={title()}>Empowering&nbsp;</h1>
-          <h1 className={title()}>
-            minds with&nbsp;
+          <h1 className={title({color : "pink"})}>Learn&nbsp;</h1>
+          <h1 className={title({color : "pink"})}>
+            without&nbsp;
           </h1>
-          <h1 className={title({ color: "violet" })}>Endless&nbsp;</h1>
+          <h1 className={title({ color: "pink" })}>Endless&nbsp;</h1>
           <br />
-          <h1 className={title()}>
-          knowledge, one resource at a time.
+          <h1 className={title({color: "pink"})}>
+          limits.
           </h1>
           <h4 className={subtitle({ class: "mt-4" })}>
-            Beautiful, fast and modern React UI library.
+          Learn anywhere, anytime: Your online resource hub.
           </h4>
         </div>
 
         <div className="flex gap-3">
-          <Link
+          {/* <Link
             isExternal
             className={buttonStyles({
               color: "primary",
@@ -38,22 +38,22 @@ export default function IndexPage() {
             href={siteConfig.links.docs}
           >
             Documentation
-          </Link>
-          <Link
+          </Link> */}
+          {/* <Link
             isExternal
             className={buttonStyles({ variant: "bordered", radius: "full" })}
             href={siteConfig.links.github}
           >
             <GithubIcon size={20} />
             GitHub
-          </Link>
+          </Link> */}
         </div>
 
         <div className="mt-8">
           <Snippet hideCopyButton hideSymbol variant="bordered">
             <span>
-              Get started by editing{" "}
-              <Code color="primary">pages/index.tsx</Code>
+              Get started by using{" "}
+              <Code color="primary">knowledgebase</Code>
             </span>
           </Snippet>
         </div>

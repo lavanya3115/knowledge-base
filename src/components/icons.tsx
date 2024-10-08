@@ -24,9 +24,9 @@ export const Logo: React.FC<IconSvgProps> = ({
 );
 
 export const DiscordIcon: React.FC<IconSvgProps> = ({
-  size = 24,
+ size = 24,
   width,
-  height,
+ height,
   ...props
 }) => {
   return (
